@@ -95,7 +95,7 @@ end
 The other effect of using `references` in the generator is that it will add
 relationships automatically to the generated model:
 
-```ruby
+```ruby 
 class Sighting < ApplicationRecord
   belongs_to :bird
   belongs_to :location
